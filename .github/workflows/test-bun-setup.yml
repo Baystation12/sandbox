@@ -1,4 +1,4 @@
-name: Test Bun Install
+name: Test Bun Setup
 
 permissions: {}
 
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-changelogs:
+  test-bun-setup:
     runs-on: ubuntu-24.04
     steps:
       - uses: oven-sh/setup-bun@735343b667d3e6f658f44d0eca948eb6282f2b76
